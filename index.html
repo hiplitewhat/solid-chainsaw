@@ -14,7 +14,7 @@
     function obfuscate() {
       const script = document.getElementById('scriptInput').value;
       
-      fetch('https://wearedevs.net/api/obfuscate', {
+      fetch('https://cors-anywhere.herokuapp.com/https://wearedevs.net/api/obfuscate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
